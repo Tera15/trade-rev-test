@@ -1,3 +1,9 @@
+import { createGlobalStyle } from 'styled-components'
+
+
+export const GlobalStyles = createGlobalStyle`
+
+
 header{
     text-align: center;
     letter-spacing: 2px;
@@ -8,3 +14,4 @@ header{
 span{
     color:  #83BC00;        
 }
+`;
