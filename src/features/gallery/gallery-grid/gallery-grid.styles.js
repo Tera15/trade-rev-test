@@ -45,7 +45,7 @@ export const Modal = styled.section`
         width: 75%;
         color: rgba(255,255,255, 0.9 );
         position: absolute;
-        left: 10%;
+        left: 12%;
         display: flex;
         justify-content: space-between;
         align-items: center;
