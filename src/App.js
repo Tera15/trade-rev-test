@@ -13,8 +13,8 @@ function App() {
     <GlobalStyles />
     <div className='App'>
       <header>  
-        <h1 style={{marginBottom: 0}}>Trade<span>Rev</span> Image Gallery</h1>
-      <p style={{marginTop:0}}>by Cory Catherall</p>
+        <h1 className="title">Trade<span>Rev</span> Image Gallery</h1>
+        <p className="cory"style={{marginTop:0}}>by Cory Catherall</p>
       </header>
       <GalleryGridContainer/>
     </div>

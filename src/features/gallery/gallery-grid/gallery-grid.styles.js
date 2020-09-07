@@ -17,7 +17,7 @@ export const ImageGrid = styled.section`
         grid-template-columns: 1fr 1fr; 
         margin: 2.5rem;
     }
-    @media screen and (max-height: 500px){
+    @media screen and (max-height: 800px){
      margin: unset;
      justify-items: center;
     }
@@ -38,19 +38,29 @@ export const Modal = styled.section`
     @media screen and (max-width: 800px){
         background: #171717  url(${props => props.phoneUrl}) center center no-repeat;
     }
+ 
     .button-container{
+        opacity: 0;
+        height: 100%;
+        width: 75%;
         color: rgba(255,255,255, 0.9 );
-        position: relative;
-        top: 54.5rem;
+        position: absolute;
+        left: 10%;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        transition: 0.3s ease-in-out;
+        &:hover{
+            opacity: 100%;
+        }
       @media screen and (max-width: 800px) {
-        top: 75%;
+        left: unset;
+        width: 100%;
       }
-      @media screen and (max-height: 500px){
-     margin: unset;
-     top: 58%;
+      @media screen and (max-height: 800px){
+        margin: unset;
+        left: unset;
+        width: 100%;
     }
     }
     button{
@@ -62,6 +72,7 @@ export const Modal = styled.section`
             &:hover{
                 cursor: pointer;
             }
+            
         }
     h4{
         background: rgba(0,0,0, 0.2 );        

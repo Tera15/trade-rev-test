@@ -105,7 +105,7 @@ const GalleryGrid = () => {
             </ImageGrid>
             
             <Modal url={regular} phoneUrl={small} modalState={modalState} alt={alt_description} aria-label='image'>
-                <button style={{alignSelf: "flex-start"}} onClick={handleExit} aria-label='Close'>X</button>
+                <button className="exit-modal"onClick={handleExit} aria-label='Close'>X</button>
                 <div className='button-container'>
                 <button onClick={handlePrevImageClick}>&lt;</button>
                 <h4>Photo by {name}</h4>

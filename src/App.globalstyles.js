@@ -8,10 +8,11 @@ header{
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
-  
-}
-
-span{
-    color:  #83BC00;        
-}
+    &,h1{
+        margin-bottom: 0px;
+    }
+     span {
+        color:  #83BC00; 
+    }
+};
 `;

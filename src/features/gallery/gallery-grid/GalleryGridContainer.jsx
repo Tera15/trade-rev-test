@@ -14,7 +14,7 @@ function GalleryGridContainer () {
     if (isLoaded) {
         return <GalleryGrid />
     } else {
-        return <div>loadin...</div>
+        return <div>loading...</div>
     }
 
 }
