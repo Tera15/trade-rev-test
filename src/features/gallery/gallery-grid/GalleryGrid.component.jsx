@@ -5,7 +5,7 @@ import { nanoid } from '@reduxjs/toolkit'
 
 import { getImages, selectAllImages, selectDidImagesLoad } from '../gallerySlice'
 
-import Image  from '../image/Image.component';
+import Image  from '../image/Image.component'
 import { ImageGrid, Modal } from './gallery-grid.styles';
 
 

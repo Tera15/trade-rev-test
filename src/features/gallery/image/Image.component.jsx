@@ -1,5 +1,5 @@
 import React from 'react'
-import { ImageContainer, ImageModal } from './image.styles';
+import { ImageContainer } from './image.styles';
 
 const Image = ({ src, alt }) => {
      return(   
