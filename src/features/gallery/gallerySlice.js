@@ -1,6 +1,6 @@
-import { createSlice, createAsyncThunk, nanoid, createSelector, createEntityAdapter } from '@reduxjs/toolkit';
+import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios'
-import { useSelector } from 'react-redux';
+
 
 export const getImages = createAsyncThunk('images/getImage', async (page) => {
    try{

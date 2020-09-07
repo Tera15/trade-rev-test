@@ -84,7 +84,7 @@ const GalleryGrid = () => {
                 return imageRef.current.push(idx)
             })
         } 
-    },[inView])
+    },[inView, currentIndex, galleryImages, page, status, dispatch])
     let imagesToDisplay = renderedImages()
    
     
